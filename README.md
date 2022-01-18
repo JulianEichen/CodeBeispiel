@@ -1,2 +1,1 @@
-# CodeBeispiel
-Beispiel aus Workshop
+# Generieren von Noten mit Hilfe eines LSTM
