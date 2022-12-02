@@ -15,7 +15,7 @@ Da die beiden Notebooks weitesgehend selbsterklärend konzipiert sind, werden im
 ## Ziel, Daten, Modell Und Generierung
 
 ### Ziel
-Ziel war es mit Hilfe des Konzeptes des LSTM-Netzwerks 'Musik' zu erzeugen, d.h. eine analysierbare Folge von Noten und Pausen. Daher auch der Aufbau auf Skulis Idee(n) mit weiteren Konzepten aus dem NLP (größerer Wortschatz, Embedding, erweitertes Sampling). Auf die Wahl einiger Hyperparameter, wie der Trainingssequenzen, Sequenzlänge und der Größe des Embeddings wird in Dateneigenschaften.ipynb eingangen. 
+Ziel war es mit Hilfe des Konzeptes des LSTM-Netzwerks 'Musik' zu erzeugen, d.h. eine analysierbare Folge von Noten und Pausen. Dazu bauten wir auf Skulis Idee(n) auf, und versuchten diese mit weiteren Konzepten aus dem NLP (größerer Wortschatz, Embedding, erweitertes Sampling) und eigenen Überlegungen zu ergänzen. Auf die Wahl einiger Hyperparameter, wie der Trainingssequenzen, Sequenzlänge und der Größe des Embeddings wird in Dateneigenschaften.ipynb eingangen. 
 
 ### Dateneigenschaten.ipynb
 In Dateneigenschaften.ipynb betrachten wir den Bach-Korpus, welcher in music21 vorliegt. Wir wollen das Modell nur mit Stücken um 4/4-Takt trainieren und filtern deshalb nach diesen. Weiterhin stellen wir Überlegungen zu einer Mindest- und Maximallänge und eventuellem Padding an. <br>
