@@ -8,14 +8,14 @@ Bei diesem Repo handelt es sich um ein Projekt aus einem 'Machine Learning & Mus
 Die Hauptbestandteile des Repos sind die beiden Notebooks:
 
 - gen_LSTM.ipynb: Datenmodellierung, Netzwerk, Training und Erzeugung
-- Dateneigenschaften.ipynb: ein Teil der auf den Datensatz bezogenen Hyperparameterwahl wird in Dateneigenschaften.ipynb erklärt
+- Dateneigenschaften.ipynb: ein Teil der auf den Datensatz bezogenen Hyperparameterwahl
 
 Da die beiden Notebooks weitesgehend selbsterklärend konzipiert sind, werden im Folgenden nur die wichtigsten Bestandteile genannt. Hierbei ist zu bachten, dass Dateneigenschaften.ipynb zwei Zwischenschritte der Hauptarbeit in gen_LSTM.ipynb darstellt. 
 
 ## Ziel, Daten, Modell Und Generierung
 
 ### Ziel
-Ziel war es, mit Hilfe des Konzeptes des LSTM-Netzwerks 'Musik', d.h. eine analysierbare Folge von Noten und Pausen, zu erzeugen. Dazu bauten wir auf Skulis Idee(n) auf, und versuchten diese mit weiteren Konzepten aus dem NLP (größerer Wortschatz, Embedding, erweitertes Sampling) und eigenen Überlegungen zu ergänzen. Auf die Wahl einiger Hyperparameter, wie der Trainingssequenzen, Sequenzlänge und der Größe des Embeddings wird in Dateneigenschaften.ipynb eingegangen. Wir betrachten wir den Bach-Korpus, welcher in music21 vorliegt. Und wollen das Modell nur mit Stücken im 4/4-Takt trainieren. Weiterhin stellen wir Überlegungen zu einer Mindest- und Maximallänge und eventuellem Padding an. Außerdem folgen wir einem Algorithmus zur Bestimmung der Embedding-Dimension.
+Ziel war es, mit Hilfe des Konzeptes des LSTM-Netzwerks 'Musik', d.h. eine analysierbare Folge von Noten und Pausen, zu erzeugen. Dazu bauten wir auf Skulis Idee(n) auf, und versuchten diese mit weiteren Konzepten aus dem NLP (größerer Wortschatz, Embedding, erweitertes Sampling) und eigenen Überlegungen zu ergänzen. Auf die Wahl einiger Hyperparameter, wie der Trainingssequenzen, Sequenzlänge und der Größe des Embeddings gehen wir in Dateneigenschaften.ipynb ein. Wir betrachten dabei den Bach-Korpus, welcher in music21 vorliegt. Und wollen das Modell nur mit Stücken im 4/4-Takt trainieren. Weiterhin stellen wir Überlegungen zu einer Mindest- und Maximallänge und eventuellem Padding an. Außerdem folgen wir einem Algorithmus zur Bestimmung der Embedding-Dimension.
 
 ### Modell
 Das Netzwerk besteht aus folgenden Layern:
