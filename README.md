@@ -2,7 +2,7 @@
 
 ## Sinn Und Zweck
 
-Bei diesem Repo handelt es sich um ein Projekt aus einem 'Machine Learning & Musicology' Workshop. Grundlage dafür war ein bekannter [Blogpost](https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5) von Sigurður Skúli. Darauf wurde ein erweitertes Modell zur Erzeugung von musikalischen Daten aufgebaut. Übergeordnete Ziele waren ein Schärfen der Python-Skills, peziell in der Arbeit mit Pytorch und music21, ein tieferes Verständnis der RNN und LSTMN Konzepte, sowie weiterer elementarer Bestandteile des Machine Learnings, wie der Datenmodellierung, dem Sampling und dem Finden diverser Hyperparameter. 
+Bei diesem Repo handelt es sich um ein Projekt aus einem 'Machine Learning & Musicology' Workshop. Grundlage dafür war ein bekannter [Blogpost](https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5) von Sigurður Skúli. Darauf wurde ein erweitertes Modell zur Erzeugung von musikalischen Daten aufgebaut. Übergeordnete Ziele waren ein Schärfen der Python-Skills, speziell in der Arbeit mit Pytorch und music21, ein tieferes Verständnis der RNN und LSTMN Konzepte, sowie weiterer elementarer Bestandteile des Machine Learnings, wie der Datenmodellierung, dem Sampling und dem Finden diverser Hyperparameter. 
 
 
 Die Hauptbestandteile des Repos sind die beiden Notebooks:
